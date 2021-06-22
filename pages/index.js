@@ -4,27 +4,30 @@ import { ResourcePicker } from "@shopify/app-bridge-react";
 
 class Index extends Component {
 
-  state = {
-    open: false
-  }
+  // state = {
+  //   open: false
+  // }
 
   render() {
     return (
-      <Page
-        title='Product selector'
-        primaryAction={{
-          content: 'Select Products',
-          onAction: () => this.setState({ open: true })
+      // <Page
+      //   title='Product selector'
+      //   primaryAction={{
+      //     content: 'Select Products',
+      //     onAction: () => this.setState({ open: true })
 
-        }}
-      >
-        <ResourcePicker
-          resourceType='Product'
-          open={this.state.open}
-          onCancel={ () => this.setState({ open: false })}
-          onSelection={ (resources) => this.handleSelection(resources)}
-        />
-      </Page>
+      //   }}
+      // >
+      //   <ResourcePicker
+      //     resourceType='Product'
+      //     open={this.state.open}
+      //     onCancel={ () => this.setState({ open: false })}
+      //     onSelection={ (resources) => this.handleSelection(resources)}
+      //   />
+      // </Page>
+      <div>
+        <p>sample app</p>
+      </div>
     )
   }
   handleSelection = (resources) => {
