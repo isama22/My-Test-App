@@ -5,27 +5,8 @@ import { TextStyle } from '@shopify/polaris';
 
 class Index extends Component {
 
-  // state = {
-  //   open: false
-  // }
-
   render() {
     return (
-      // <Page
-      //   title='Product selector'
-      //   primaryAction={{
-      //     content: 'Select Products',
-      //     onAction: () => this.setState({ open: true })
-
-      //   }}
-      // >
-      //   <ResourcePicker
-      //     resourceType='Product'
-      //     open={this.state.open}
-      //     onCancel={ () => this.setState({ open: false })}
-      //     onSelection={ (resources) => this.handleSelection(resources)}
-      //   />
-      // </Page>
       <div>
         <TextStyle variation="positive">
           Sample app using React and Next.js
