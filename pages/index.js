@@ -1,6 +1,7 @@
 import { Heading, Page, Button } from "@shopify/polaris";
 import { Component } from "react";
 import { ResourcePicker } from "@shopify/app-bridge-react";
+import { TextStyle } from '@shopify/polaris';
 
 class Index extends Component {
 
@@ -26,7 +27,9 @@ class Index extends Component {
       //   />
       // </Page>
       <div>
-        <p>sample app</p>
+        <TextStyle variation="positive">
+          Sample app using React and Next.js
+        </TextStyle>
       </div>
     )
   }
